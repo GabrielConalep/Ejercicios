@@ -9,6 +9,7 @@ print(var//2)
 print(var%2)
 print(var**2)
 print("-"*30)
+
 print("OPERADORES DE DESENCADENADORES")
 print("-"*30)
 print(True and False)
@@ -16,6 +17,7 @@ print(True or False)
 print(not True)
 print(not False)
 print("-"*30)
+
 print("OPERADORES DE RELACIONALES")
 print("-"*30)
 print(10>5)
@@ -25,6 +27,7 @@ print(10<=5)
 print(10==5)
 print(10!=5)
 print("-"*30)
+
 print("OPERADORES DE BOOLEANOS")
 print("-"*30)
 print(True==1)
@@ -33,12 +36,19 @@ print(True+True)
 print(False+False)
 print(True+False)
 print("-"*30)
+
 print("OPERADORES DE MEMBRESIA")
 print("-"*30)
+
 print("Hola" in "Hola Mundo")
+
 print("Hola" not in "Hola Mundo")
+
 A,B,C="CASA","PERRO","GATO"
 print("A" in (A))
+
 print("A" in (A,B,C))
-print(any("A" in s for s in (A, B, C)))
+
+print(any("E" in s for s in (A, B, C)))
+
 print("-"*30)
